@@ -1,7 +1,9 @@
+$blanc:white;
+
 body {
     margin: 0px;
     padding: 0px;
-    color: white;
+    color: $blanc;
     background-color: #333;
 }
 
@@ -27,7 +29,7 @@ body {
     border: none;
     &:hover {
         background-color: black;
-        color: white;
+        color: $blanc;
     }
 }
 
@@ -39,7 +41,7 @@ body {
     align-items: flex-start;
     & a {
         text-decoration: none;
-        color: white;
+        color: $blanc;
     }
 }
 
@@ -50,7 +52,7 @@ body {
     justify-content: center;
     height: 500px;
     width: 500px;
-    background-image: url(../img/creatmc.png);
+    background-image: url(../../img/creatmc.png);
     background-size: cover;
     background-position: center;
     margin: 20px;
@@ -69,7 +71,7 @@ body {
         font-size: 25px;
         color: rgb(105, 105, 105);
         &:hover {
-            color: white;
+            color: $blanc;
             font-size: 30px;
         }
     }
@@ -96,7 +98,7 @@ body {
     color: rgb(105, 105, 105);
     font-size: 35px;
     &:hover {
-        color: white;
+        color: $blanc;
         font-size: 40px;
     }
 }
