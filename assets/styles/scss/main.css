@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: xx-large;
+  height: 940px;
+  font-family: "Open Sans", sans-serif;
+}
+.header h3 {
+  margin-top: -30px;
+  margin-bottom: 200px;
+}
+
+.commande-button {
+  border-radius: 50px;
+  font-size: 20px;
+  height: 50px;
+  width: 230px;
+  border: none;
+}
+.commande-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.Trailer {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Trailer a {
+  text-decoration: none;
+  color: white;
+}
+
+.CreateMc {
+  font-family: "Albert Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  background-image: url(../img/creatmc.png);
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50px;
+}
+.CreateMc b {
+  font-size: 50px;
+}
+
+.navigation {
+  list-style: none;
+}
+.navigation a {
+  text-decoration: none;
+  margin: 30px;
+  font-size: 25px;
+  color: rgb(105, 105, 105);
+}
+.navigation a:hover {
+  color: white;
+  font-size: 30px;
+}
+
+.nav-bar {
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.logo img {
+  height: 95px;
+}
+.logo img:hover {
+  height: 100px;
+}
+
+.reseaux a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-size: 35px;
+}
+.reseaux a:hover {
+  color: white;
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */

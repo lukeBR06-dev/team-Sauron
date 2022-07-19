@@ -5,10 +5,6 @@ body {
     background-color: #333;
 }
 
-.header h3 {
-    margin-top: -30px;
-}
-
 .header {
     display: flex;
     align-items: center;
@@ -17,10 +13,10 @@ body {
     font-size: xx-large;
     height: 940px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.header h3 {
-    margin-bottom: 200px;
+    & h3 {
+        margin-top: -30px;
+        margin-bottom: 200px;
+    }
 }
 
 .commande-button {
@@ -29,11 +25,10 @@ body {
     height: 50px;
     width: 230px;
     border: none;
-}
-
-.commande-button:hover {
-    background-color: black;
-    color: white;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
 }
 
 .Trailer {
@@ -42,11 +37,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-.Trailer a {
-    text-decoration: none;
-    color: white;
+    & a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .CreateMc {
@@ -62,26 +56,23 @@ body {
     margin: 20px;
     object-fit: contain;
     border-radius: 50px;
-}
-
-.CreateMc b {
-    font-size: 50px;
+    & b {
+        font-size: 50px;
+    }
 }
 
 .navigation {
     list-style: none;
-}
-
-.navigation a {
-    text-decoration: none;
-    margin: 30px;
-    font-size: 25px;
-    color: rgb(105, 105, 105);
-}
-
-.navigation a:hover {
-    color: white;
-    font-size: 30px;
+    & a {
+        text-decoration: none;
+        margin: 30px;
+        font-size: 25px;
+        color: rgb(105, 105, 105);
+        &:hover {
+            color: white;
+            font-size: 30px;
+        }
+    }
 }
 
 .nav-bar {
@@ -95,19 +86,17 @@ body {
 
 .logo img {
     height: 95px;
-}
-
-.logo img:hover {
-    height: 100px;
+    &:hover {
+        height: 100px;
+    }
 }
 
 .reseaux a {
     text-decoration: none;
     color: rgb(105, 105, 105);
     font-size: 35px;
-}
-
-.reseaux a:hover {
-    color: white;
-    font-size: 40px;
+    &:hover {
+        color: white;
+        font-size: 40px;
+    }
 }

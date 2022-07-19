@@ -1,0 +1,19 @@
+{
+  "name": "team-sauron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "sass": "sass --watch ./assets/styles/scss/main.scss:./assets/styles/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeBR06-dev/team-Sauron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukeBR06-dev/team-Sauron/issues"
+  },
+  "homepage": "https://github.com/lukeBR06-dev/team-Sauron#readme"
+}
